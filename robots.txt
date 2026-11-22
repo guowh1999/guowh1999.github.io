@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO：站点上线后补上 sitemap 绝对地址，例如：
+# Sitemap: https://yourname.github.io/sitemap.xml

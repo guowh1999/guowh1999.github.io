@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Abstract illustration: a drug molecule dissolving into a data network of cells and signals">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#211c17"/>
+      <stop offset="0.55" stop-color="#141316"/>
+      <stop offset="1" stop-color="#0c0c0e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="16%" r="62%">
+      <stop offset="0" stop-color="#d8a87c" stop-opacity="0.22"/>
+      <stop offset="0.55" stop-color="#d8a87c" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#d8a87c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+
+  <!-- 背景细弧 -->
+  <g fill="none" stroke="#d8a87c" stroke-opacity="0.14">
+    <circle cx="400" cy="470" r="200"/>
+    <circle cx="400" cy="470" r="270"/>
+    <circle cx="400" cy="470" r="340"/>
+  </g>
+
+  <!-- 创新药：分子骨架 -->
+  <path d="M400 178 L450 207 L450 265 L400 294 L350 265 L350 207 Z"
+        fill="none" stroke="#d8a87c" stroke-width="2" stroke-linejoin="round" stroke-opacity="0.9"/>
+  <path d="M350 207 L306 181" fill="none" stroke="#d8a87c" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.65"/>
+  <path d="M450 207 L494 181" fill="none" stroke="#d8a87c" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.65"/>
+  <circle cx="306" cy="181" r="3.5" fill="#d8a87c" fill-opacity="0.85"/>
+  <circle cx="494" cy="181" r="3.5" fill="#d8a87c" fill-opacity="0.85"/>
+
+  <!-- 分子向下溶解为数据网络 -->
+  <path d="M400 294 L400 350" fill="none" stroke="#d8a87c" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.8"/>
+  <path d="M400 350 L346 400" fill="none" stroke="#d8a87c" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.45"/>
+  <path d="M400 350 L462 384" fill="none" stroke="#d8a87c" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.45"/>
+
+  <!-- 数据网络：关系边 -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.34" stroke-width="1.4" stroke-linecap="round">
+    <path d="M346 400 L272 452"/>
+    <path d="M346 400 L392 470"/>
+    <path d="M462 384 L392 470"/>
+    <path d="M462 384 L534 444"/>
+    <path d="M272 452 L318 528"/>
+    <path d="M392 470 L318 528"/>
+    <path d="M392 470 L486 520"/>
+    <path d="M534 444 L486 520"/>
+    <path d="M318 528 L410 594"/>
+    <path d="M486 520 L410 594"/>
+  </g>
+
+  <!-- 节点 -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.42" stroke-width="1.4">
+    <circle cx="346" cy="400" r="7"/>
+    <circle cx="462" cy="384" r="7"/>
+    <circle cx="534" cy="444" r="7"/>
+    <circle cx="318" cy="528" r="7"/>
+    <circle cx="486" cy="520" r="7"/>
+    <circle cx="410" cy="594" r="7"/>
+  </g>
+
+  <!-- 生物：细胞外环 + 核 -->
+  <circle cx="272" cy="452" r="17" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.4"/>
+  <circle cx="272" cy="452" r="5" fill="#d8a87c" fill-opacity="0.9"/>
+
+  <!-- 网络中心：强调点 -->
+  <circle cx="392" cy="470" r="8" fill="#d8a87c" fill-opacity="0.9"/>
+
+  <!-- 数据：零散信号点 -->
+  <circle cx="586" cy="572" r="3" fill="#ffffff" fill-opacity="0.26"/>
+  <circle cx="238" cy="600" r="3" fill="#ffffff" fill-opacity="0.26"/>
+
+  <!-- 底部信号轨 -->
+  <g stroke="#ffffff" stroke-opacity="0.24" stroke-width="1.8" stroke-linecap="round">
+    <path d="M188 812 V800"/>
+    <path d="M210 812 V774"/>
+    <path d="M232 812 V792"/>
+    <path d="M254 812 V746"/>
+    <path d="M276 812 V784"/>
+    <path d="M298 812 V798"/>
+    <path d="M320 812 V760"/>
+    <path d="M342 812 V790"/>
+    <path d="M364 812 V732"/>
+    <path d="M386 812 V782"/>
+    <path d="M408 812 V754"/>
+    <path d="M430 812 V794"/>
+    <path d="M452 812 V742"/>
+    <path d="M474 812 V786"/>
+    <path d="M496 812 V762"/>
+    <path d="M518 812 V796"/>
+    <path d="M540 812 V772"/>
+    <path d="M562 812 V788"/>
+    <path d="M584 812 V756"/>
+    <path d="M606 812 V798"/>
+  </g>
+  <g stroke="#d8a87c" stroke-opacity="0.7" stroke-width="1.6" stroke-linecap="round">
+    <path d="M254 812 V746"/>
+    <path d="M452 812 V742"/>
+  </g>
+  <path d="M166 812 H628" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+</svg>

@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weiheng Guo — Biomedical data &amp; drug R&amp;D</title>
+  <meta name="description" content="Weiheng Guo, PhD candidate in biomedical sciences at City University of Hong Kong. Algorithms for proteomics, single-cell and spatial omics, and the commercial side of pharma.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b0b0c'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%23d8a87c' stroke-width='1.5'/%3E%3Ccircle cx='16' cy='16' r='2' fill='%23d8a87c'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="Back to home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Weiheng Guo</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-list" id="nav-list" aria-label="Main">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="industry.html">Industry</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="ideas.html">Ideas</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ==================== 上半部分：左图 + 右文 ==================== -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="intro">
+          <div class="intro-media reveal">
+            <img class="portrait" src="assets/img/portrait.svg"
+                 alt="Illustration: a drug molecule dissolving into a network of cells and signal peaks"
+                 width="800" height="1000">
+          </div>
+
+          <div class="intro-body">
+            <p class="eyebrow reveal"><span class="dot" aria-hidden="true"></span>PhD candidate · Biomedical data science</p>
+
+            <h1 class="reveal">I turn messy biological data into<br><em>decisions that hold up</em>.</h1>
+
+            <p class="lead reveal">
+              PhD candidate in biomedical sciences at City University of Hong Kong. I build
+              algorithms for proteomics, single-cell and spatial omics — and I have spent time on
+              the commercial side of pharma too, from market access to patent intelligence.
+            </p>
+
+            <div class="hero-actions reveal">
+              <a class="btn btn-solid" href="mailto:Guowh1999@outlook.com">Email me</a>
+              <!-- TODO: 换成简历 PDF 的链接 -->
+              <a class="btn" href="#" target="_blank" rel="noopener">CV (PDF) ↗</a>
+              <!-- TODO: 换成 GitHub 主页 -->
+              <a class="btn" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 下半部分：研究方向 ==================== -->
+    <section class="section" aria-labelledby="directions-title">
+      <div class="wrap">
+        <header class="section-intro reveal">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Research Directions</p>
+          <h2 id="directions-title">Four directions I keep <em>returning to</em>.</h2>
+          <p class="kicker">Different methods, one question: what is actually true in the data, and what would change if it were.</p>
+        </header>
+
+        <!--
+          排列顺序可以自由调整：整块 <article class="direction"> 上下移动即可。
+          左上角的编号由 CSS 计数器生成，会自动重新排列，不需要手动改数字。
+        -->
+        <div class="directions">
+
+          <!-- Proteomics -->
+          <article class="direction reveal">
+            <div class="dir-top">
+              <span class="dir-num" aria-hidden="true"></span>
+              <h3 class="dir-title">Proteomics</h3>
+            </div>
+            <figure class="dir-figure">
+              <svg viewBox="0 0 320 180" role="img" aria-label="Schematic of a mass spectrum with two highlighted peaks">
+                <path class="s-line" d="M28 146H292"/>
+                <path class="s-line" d="M56 146V116"/>
+                <path class="s-line" d="M78 146V100"/>
+                <path class="s-line" d="M100 146V124"/>
+                <path class="s-accent" d="M122 146V62"/>
+                <path class="s-line" d="M144 146V106"/>
+                <path class="s-line" d="M166 146V118"/>
+                <path class="s-accent" d="M188 146V46"/>
+                <path class="s-line" d="M210 146V126"/>
+                <path class="s-line" d="M232 146V92"/>
+                <path class="s-line" d="M254 146V130"/>
+                <path class="s-line" d="M276 146V112"/>
+                <circle class="s-dot-a" cx="122" cy="55" r="2.5"/>
+                <circle class="s-dot-a" cx="188" cy="39" r="2.5"/>
+                <text class="s-label" x="292" y="161" text-anchor="end">m/z</text>
+              </svg>
+            </figure>
+            <p class="dir-text">
+              Proteomics asks what proteins are actually present, in what quantity, and how that
+              changes between health and disease. Mass spectrometry answers at scale, but the
+              measurements are noisy and incomplete — so much of the real work is statistical:
+              deciding what a missing value means.
+            </p>
+          </article>
+
+          <!-- Spatial and single-cell -->
+          <article class="direction reveal">
+            <div class="dir-top">
+              <span class="dir-num" aria-hidden="true"></span>
+              <h3 class="dir-title">Spatial and Single-Cell Transcriptomics</h3>
+            </div>
+            <figure class="dir-figure">
+              <svg viewBox="0 0 320 180" role="img" aria-label="Schematic of a tissue section, a region of interest, and a zoomed cluster of cells">
+                <rect class="s-line s-dash" x="36" y="30" width="164" height="120" rx="16"/>
+                <circle class="s-dot" cx="60" cy="56" r="3.5"/>
+                <circle class="s-dot" cx="92" cy="56" r="3.5"/>
+                <circle class="s-dot" cx="124" cy="56" r="3.5"/>
+                <circle class="s-dot" cx="156" cy="56" r="3.5"/>
+                <circle class="s-dot" cx="60" cy="84" r="3.5"/>
+                <circle class="s-dot" cx="92" cy="84" r="3.5"/>
+                <circle class="s-dot-a" cx="124" cy="84" r="3.5"/>
+                <circle class="s-dot-a" cx="156" cy="84" r="3.5"/>
+                <circle class="s-dot" cx="60" cy="112" r="3.5"/>
+                <circle class="s-dot" cx="92" cy="112" r="3.5"/>
+                <circle class="s-dot-a" cx="124" cy="112" r="3.5"/>
+                <circle class="s-dot-a" cx="156" cy="112" r="3.5"/>
+                <circle class="s-dot" cx="60" cy="138" r="3.5"/>
+                <circle class="s-dot" cx="92" cy="138" r="3.5"/>
+                <circle class="s-dot" cx="124" cy="138" r="3.5"/>
+                <circle class="s-dot" cx="156" cy="138" r="3.5"/>
+                <rect class="s-accent" x="108" y="68" width="64" height="60" rx="8"/>
+                <path class="s-accent s-dash" d="M172 72 L214 58"/>
+                <path class="s-accent s-dash" d="M172 124 L214 122"/>
+                <circle class="s-line" cx="258" cy="90" r="42"/>
+                <circle class="s-dot" cx="246" cy="78" r="3.5"/>
+                <circle class="s-dot-a" cx="264" cy="82" r="3.5"/>
+                <circle class="s-dot" cx="272" cy="100" r="3.5"/>
+                <circle class="s-dot-a" cx="248" cy="102" r="3.5"/>
+              </svg>
+            </figure>
+            <p class="dir-text">
+              Bulk sequencing averages thousands of cells into a single number. Single-cell methods
+              pull them apart; spatial methods put them back where they belong. Together they let
+              us ask not only what a tissue contains, but how its neighbourhoods are organised.
+            </p>
+          </article>
+
+          <!-- AI / target discovery -->
+          <article class="direction reveal">
+            <div class="dir-top">
+              <span class="dir-num" aria-hidden="true"></span>
+              <h3 class="dir-title">Natural Product Targets and Mechanism</h3>
+            </div>
+            <figure class="dir-figure">
+              <svg viewBox="0 0 320 180" role="img" aria-label="Schematic of a small molecule binding into a protein pocket">
+                <path class="s-accent" d="M112 90 L99 112.5 L73 112.5 L60 90 L73 67.5 L99 67.5 Z"/>
+                <path class="s-line" d="M112 90 H130"/>
+                <path class="s-line" d="M60 90 H42"/>
+                <circle class="s-dot-a" cx="130" cy="90" r="3"/>
+                <circle class="s-dot-a" cx="42" cy="90" r="3"/>
+                <path class="s-line" d="M154 90 H198"/>
+                <path class="s-line" d="M190 84 L198 90 L190 96"/>
+                <path class="s-line" d="M212 52 C250 60 272 74 272 90 C272 106 250 120 212 128"/>
+                <path class="s-line" d="M212 52 H196"/>
+                <path class="s-line" d="M212 128 H196"/>
+                <circle class="s-dot-a" cx="228" cy="90" r="5"/>
+              </svg>
+            </figure>
+            <p class="dir-text">
+              Most drugs still trace back to molecules that nature made first. Natural products are
+              structurally dense and often engage more than one protein, so the open questions are
+              which target is actually responsible, and what the downstream mechanism really is.
+            </p>
+          </article>
+
+          <!-- Epidemiology -->
+          <article class="direction reveal">
+            <div class="dir-top">
+              <span class="dir-num" aria-hidden="true"></span>
+              <h3 class="dir-title">Epidemiology and Health Economics</h3>
+            </div>
+            <figure class="dir-figure">
+              <svg viewBox="0 0 320 180" role="img" aria-label="Schematic of an epidemic curve with a threshold line and an intervention point">
+                <path class="s-axis" d="M36 40 V148 H288"/>
+                <path class="s-fill" d="M36 148 C70 146 84 96 112 76 C140 56 162 60 190 92 C218 124 244 140 288 144 V148 Z"/>
+                <path class="s-accent" d="M36 148 C70 146 84 96 112 76 C140 56 162 60 190 92 C218 124 244 140 288 144"/>
+                <path class="s-line s-dash" d="M36 88 H288"/>
+                <path class="s-accent s-dash" d="M112 148 V64"/>
+                <circle class="s-dot-a" cx="112" cy="76" r="3.5"/>
+                <text class="s-label" x="292" y="161" text-anchor="end">t</text>
+              </svg>
+            </figure>
+            <p class="dir-text">
+              Epidemiology measures how much disease exists and who carries it. Health economics
+              asks whether acting on it is worth the cost. Both are exercises in making assumptions
+              explicit enough that a decision can survive them.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© <span id="year">2025</span> Weiheng Guo</span>
+      <span>Hand-written HTML · CSS · no tracking</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

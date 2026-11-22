@@ -1,0 +1,2 @@
+# GitHub Pages：让站点文件原样输出，不经过 Jekyll 处理
+# 作用：避免 assets 下带特殊命名的文件被吞掉

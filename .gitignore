@@ -1,0 +1,7 @@
+# macOS / R 产生的杂项
+.DS_Store
+.Rhistory
+.RData
+
+# 简历 PDF：含手机号，不要推到公开仓库（本地保留，git 会忽略）
+*.pdf

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Projects — Weiheng Guo</title>
+  <meta name="description" content="Research of Weiheng Guo: proteomics missing values, single-cell proteomics, spatial transcriptomics, disease burden.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b0b0c'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%23d8a87c' stroke-width='1.5'/%3E%3Ccircle cx='16' cy='16' r='2' fill='%23d8a87c'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="Back to home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Weiheng Guo</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-list" id="nav-list" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="industry.html">Industry</a></li>
+          <li><a href="research.html" aria-current="page">Research</a></li>
+          <li><a href="ideas.html">Ideas</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-head">
+      <div class="wrap">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>04 — Research Projects</p>
+        <h1>Problems I have worked on, and <em>what they left behind</em>.</h1>
+        <p class="kicker">Two algorithms, one clinical study, and the habit of keeping the uncertainty visible.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="pill pill-live">Published</span>
+            </div>
+            <h2>BIND — deconvolving missing values in proteomics</h2>
+            <p>Most pipelines impute missing protein values away. BIND instead deconvolves where the
+               missingness comes from, using a kNN core: it recovered biomarkers 85% of conventional
+               methods never find, including GPC3 in a hepatocellular carcinoma cohort.</p>
+            <ul class="tags">
+              <li>Proteomics</li>
+              <li>kNN</li>
+              <li>Biomarkers</li>
+            </ul>
+            <div class="card-links">
+              <a href="https://academic.oup.com/bib/article/doi/10.1093/bib/bbag582/9002264"
+                 target="_blank" rel="noopener">Paper ↗</a>
+              <a href="#">Code ↗</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="pill">In progress</span>
+            </div>
+            <h2>MultiGraphSCP — single-cell proteomics with graph neural networks</h2>
+            <p>A model that encodes multi-view cell relationships for single-cell proteomics and feeds
+               downstream clustering and spatial applications. On cell clustering it lifted ARI and
+               ASW by 0.38 and 0.45.</p>
+            <ul class="tags">
+              <li>GNN</li>
+              <li>Single-cell</li>
+            </ul>
+            <div class="card-links">
+              <a href="#">Preprint ↗</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="pill">In progress</span>
+            </div>
+            <h2>SpaECM — tumour–CAF gene interactions in space</h2>
+            <p>A toolkit for spatial transcriptomics: cluster cancer-associated fibroblasts by
+               neighbourhood, integrate regions, then test gene co-expression at the tumour–CAF
+               interface. Across 21 datasets it surfaced pan-cancer and cancer-specific interactions.</p>
+            <ul class="tags">
+              <li>Spatial omics</li>
+              <li>CAF</li>
+              <li>GNN</li>
+            </ul>
+            <div class="card-links">
+              <a href="#">Code ↗</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="pill pill-live">Published</span>
+            </div>
+            <h2>Urological cancer burden in China, 1990–2021</h2>
+            <p>A GBD analysis of incidence, prevalence, mortality and DALY across China and 34
+               provinces, with AI-based forecasts by age, sex and geography, and scenario work on
+               smoking, high BMI and glucose control.</p>
+            <ul class="tags">
+              <li>Epidemiology</li>
+              <li>GBD</li>
+              <li>Forecasting</li>
+            </ul>
+            <div class="card-links">
+              <a href="https://linkinghub.elsevier.com/retrieve/pii/S2666606525000549"
+                 target="_blank" rel="noopener">Paper ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="note">Also first / co-first author: <em>Food Science and Human Wellness</em> (under review).</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© <span id="year">2025</span> Weiheng Guo</span>
+      <span>Hand-written HTML · CSS · no tracking</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
